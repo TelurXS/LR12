@@ -94,3 +94,17 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.input-group {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input[type=text] {
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+    padding-left: 5px;
+}
